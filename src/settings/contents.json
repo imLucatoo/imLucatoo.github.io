@@ -1,0 +1,47 @@
+{
+    "awsome_icon_api": "https://fontawesome.com/icons",
+    "google_icon_api": "https://fonts.google.com/icons",
+    "fit_style_options": ["cover", "contain", "fill", "scale-down"],
+    "visual_container": [
+        {
+            "image_url": "image1.jpeg",
+            "fit_style": "cover"
+        },
+        {
+            "image_url": "image2.jpeg",
+            "fit_style": "cover"
+        },
+        {
+            "image_url": "image3.jpeg",
+            "fit_style": "cover"
+        },
+        {
+            "image_url": "image4.jpeg",
+            "fit_style": "cover"
+        }
+    ],
+    "short_introduction": "Hi there, Developer! 👋 We're excited to have you on board. ilGPT is a design that be used for invidual uses of Innovation Lab, for who cannot has full access to any principal power of GPT4 and its convinience.",
+    "name_mark": "@ThinhSuyLuy",
+    "content_container": [
+        {
+            "text": "Facebook",
+            "icon": "fa-brands fa-facebook",
+            "url": "https://www.google.com"
+        },
+        {
+            "text": "Zalo",
+            "icon": "fa-brands fa-weixin",
+            "url": "https://www.google.com"
+        },
+        {
+            "text": "Gmail",
+            "icon": "fab fa-google-plus-g",
+            "url": "https://www.google.com"
+        },
+        {
+            "text": "Phone",
+            "icon": "fa-solid fa-phone",
+            "url": "https://www.google.com"
+        }
+    ]
+}
