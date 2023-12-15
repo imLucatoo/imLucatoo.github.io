@@ -8,10 +8,10 @@ import colors from './settings/colors.json'
 
 const PhoneSpan = styled.div`
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 414px;
+    top: 0;
+    transform: translate(-50%, 0%);
+    width: 80%;
     height: fit-content;
     max-width: ${params.phone_max_size};
     box-sizing: box-border;
