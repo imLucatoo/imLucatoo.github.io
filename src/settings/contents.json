@@ -12,36 +12,36 @@
             "fit_style": "cover"
         },
         {
-            "image_url": "image3.jpeg",
+            "image_url": "logo.jpg",
             "fit_style": "cover"
         },
         {
-            "image_url": "image4.jpeg",
+            "image_url": "QR.png",
             "fit_style": "cover"
         }
     ],
     "short_introduction": "Hi there, Developer! 👋 We're excited to have you on board. ilGPT is a design that be used for invidual uses of Innovation Lab, for who cannot has full access to any principal power of GPT4 and its convinience.",
-    "name_mark": "@ThinhSuyLuy",
+    "name_mark": "",
     "content_container": [
         {
             "text": "Facebook",
             "icon": "fa-brands fa-facebook",
-            "url": "https://www.google.com"
+            "url": "https://www.facebook.com/profile.php?id=100035257190122"
         },
         {
             "text": "Zalo",
             "icon": "fa-brands fa-weixin",
-            "url": "https://www.google.com"
+            "url": "https://zalo.me/0948172565"
         },
         {
-            "text": "Gmail",
+            "text": "anhquan270701@gmail.com",
             "icon": "fab fa-google-plus-g",
-            "url": "https://www.google.com"
+            "url": "mailto:anhquan270701@gmail.com"
         },
         {
-            "text": "Phone",
+            "text": "(+84) 948 172 565",
             "icon": "fa-solid fa-phone",
-            "url": "https://www.google.com"
+            "url": "tel:+84903981538"
         }
     ]
 }

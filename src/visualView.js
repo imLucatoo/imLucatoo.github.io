@@ -19,19 +19,10 @@ const Container = styled.div`
     padding: ${params.image_border};
 `
 
-const FirstImage = styled.img`
-    position: relative;
-    width: 100%;
-    height: 40%;
-    border-radius: ${params.object_border_radius};
-    background: ${colors.secondary_color};
-    object-fit: ${props => (props.fit_style)};
-`
-
 const SecondContainer = styled.div`
     width: 100%;
-    height: calc(60% - ${params.image_border} - 3px);
-    margin-top: ${params.image_border};
+    height: calc(100% - ${params.image_border} - 3px);
+    margin-top: calc(${params.image_border} - 3px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -68,8 +59,6 @@ const FourthImage = styled.img`
     background: ${colors.secondary_color};
     object-fit: ${props => (props.fit_style)};
 `
-
-const Image1 = require(`./images/${contents.visual_container[0].image_url}`);
 const Image2 = require(`./images/${contents.visual_container[1].image_url}`);
 const Image3 = require(`./images/${contents.visual_container[2].image_url}`);
 const Image4 = require(`./images/${contents.visual_container[3].image_url}`);
@@ -77,10 +66,6 @@ const Image4 = require(`./images/${contents.visual_container[3].image_url}`);
 export default function VisualView(){
     return (
         <Container>
-            <FirstImage
-                src={Image1}
-                fit_style={contents.visual_container[0].fit_style}
-            ></FirstImage> 
             <SecondContainer>
                 <SecondImage
                     src={Image2}
