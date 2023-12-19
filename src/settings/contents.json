@@ -4,10 +4,6 @@
     "fit_style_options": ["cover", "contain", "fill", "scale-down"],
     "visual_container": [
         {
-            "image_url": "image1.jpeg",
-            "fit_style": "cover"
-        },
-        {
             "image_url": "image2.jpeg",
             "fit_style": "cover"
         },
@@ -20,7 +16,7 @@
             "fit_style": "cover"
         }
     ],
-    "short_introduction": "Hi there, Developer! 👋 We're excited to have you on board. ilGPT is a design that be used for invidual uses of Innovation Lab, for who cannot has full access to any principal power of GPT4 and its convinience.",
+    "short_introduction": "Welcome to my site.",
     "name_mark": "",
     "content_container": [
         {
@@ -34,14 +30,14 @@
             "url": "https://zalo.me/0948172565"
         },
         {
-            "text": "anhquan270701@gmail.com",
+            "text": "Gmail",
             "icon": "fab fa-google-plus-g",
             "url": "mailto:anhquan270701@gmail.com"
         },
         {
             "text": "(+84) 948 172 565",
             "icon": "fa-solid fa-phone",
-            "url": "tel:+84903981538"
+            "url": "tel:+84 948172565"
         }
     ]
 }

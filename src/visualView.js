@@ -59,26 +59,31 @@ const FourthImage = styled.img`
     background: ${colors.secondary_color};
     object-fit: ${props => (props.fit_style)};
 `
+const Image1 = require(`./images/${contents.visual_container[0].image_url}`);
 const Image2 = require(`./images/${contents.visual_container[1].image_url}`);
 const Image3 = require(`./images/${contents.visual_container[2].image_url}`);
-const Image4 = require(`./images/${contents.visual_container[3].image_url}`);
+
+const Navigate = (url) => {
+    window.location.href = url;
+}
 
 export default function VisualView(){
     return (
         <Container>
             <SecondContainer>
                 <SecondImage
-                    src={Image2}
-                    fit_style={contents.visual_container[1].fit_style}
+                    src={Image1}
+                    fit_style={contents.visual_container[0].fit_style}
                 ></SecondImage>
                 <ThirdContainer>
                     <ThirdImage
-                        src={Image3}
-                        fit_style={contents.visual_container[2].fit_style}
+                        src={Image2}
+                        fit_style={contents.visual_container[1].fit_style}
+                        onClick={() => Navigate("https://www.aia.com.vn/vi/ve-chung-toi/tu-van-vien-bao-hiem/exchange-by-aia.html")}
                     ></ThirdImage>
                     <FourthImage
-                        src={Image4}
-                        fit_style={contents.visual_container[3].fit_style}
+                        src={Image3}
+                        fit_style={contents.visual_container[2].fit_style}
                     ></FourthImage>
                 </ThirdContainer>
             </SecondContainer>

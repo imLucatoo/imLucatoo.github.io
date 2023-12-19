@@ -26,7 +26,6 @@ const Tag = styled.button`
 
 export default function TagNavigation({text, icon, url}){
     const handleClick = (url) => {
-        console.log(url);
         window.location.href = url;
     }
 
