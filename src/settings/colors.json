@@ -1,6 +1,7 @@
 {
-    "primary_color": "lightgrey",
+    "primary_color": "#E6E6E6",
     "secondary_color": "white",
     "text_color": "black",
-    "icon_color": "black"
+    "icon_color": "black",
+    "background": "#D8D8D8"
 }

@@ -20,6 +20,7 @@ const PhoneSpan = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: ${colors.background}
 `
 
 const IntroductionText = styled.p`
