@@ -32,7 +32,7 @@ const SecondImage = styled.img`
     width: calc(50% - ${params.image_border}/2);
     height: 100%;
     border-radius: ${params.object_border_radius};
-    background: ${colors.secondary_color};
+    background: ${colors.primary_color};
     object-fit: ${props => (props.fit_style)};
 `
 
@@ -48,7 +48,7 @@ const ThirdImage = styled.img`
     width: 100%;
     height: calc(50% - ${params.image_border}/2);
     border-radius: ${params.object_border_radius};
-    background: ${colors.secondary_color};
+    background: ${colors.primary_color};
     object-fit: ${props => (props.fit_style)};
 `
 
@@ -56,7 +56,7 @@ const FourthImage = styled.img`
     width: 100%;
     height: calc(50% - ${params.image_border}/2);
     border-radius: ${params.object_border_radius};
-    background: ${colors.secondary_color};
+    background: ${colors.primary_color};
     object-fit: ${props => (props.fit_style)};
 `
 const Image1 = require(`./images/${contents.visual_container[0].image_url}`);

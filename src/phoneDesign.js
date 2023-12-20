@@ -23,19 +23,36 @@ const PhoneSpan = styled.div`
     background-color: ${colors.background}
 `
 
-const IntroductionText = styled.p`
+const IntroductionName = styled.p`
     width: 100%;
     text-align: center;
-    margin: 10px;
+    font-weight: bold;
+    font-size: 26px;
     color: ${colors.text_color};
 `
+
+const IntroductionText = styled.p`
+    width: 100%;
+    text-align: justify;
+    color: ${colors.text_color};
+`
+
+function IntroductionContent({ content }) {
+    return (
+        <p>{content}</p>
+    );
+}
+const contentList = contents.short_introduction.split('\n').map((item) => (
+    <IntroductionContent content={item} />
+));
 
 
 export default function PhoneDesign(){
     return (
     <PhoneSpan>
         <VisualView></VisualView>
-        <IntroductionText>{contents.short_introduction}</IntroductionText>
+        <IntroductionName>{contents.name}</IntroductionName>
+        <IntroductionText>{contentList}</IntroductionText>
         <ContentSide></ContentSide>
         <IntroductionText>{contents.name_mark}</IntroductionText>
     </PhoneSpan>

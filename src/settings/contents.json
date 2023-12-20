@@ -4,8 +4,8 @@
     "fit_style_options": ["cover", "contain", "fill", "scale-down"],
     "visual_container": [
         {
-            "image_url": "image2.jpeg",
-            "fit_style": "cover"
+            "image_url": "avatar.jpg",
+            "fit_style": "contain"
         },
         {
             "image_url": "logo.jpg",
@@ -16,7 +16,8 @@
             "fit_style": "cover"
         }
     ],
-    "short_introduction": "Welcome to my site.",
+    "name": "Nguyễn Anh Quân",
+    "short_introduction": "Chuyên viên hoạch định tài chính tại Exchange by AIA - doanh nghiệp Bảo hiểm nhân thọ cung cấp sản phẩm tài chính và sức khoẻ.\nĐể biết thêm thông tin về doanh nghiệp vui lòng ấn vào logo công ty ở phía trên.\nĐể được tư vấn và hiểu thêm về thông tin sản phẩm, vui lòng liên hệ các phương thức liên lạc phía dưới.\nRất mong được đồng hành và tư vấn cho quý khách hàng.",
     "name_mark": "",
     "content_container": [
         {
